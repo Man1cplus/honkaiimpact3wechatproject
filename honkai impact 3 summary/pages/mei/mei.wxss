@@ -1,0 +1,22 @@
+.title{
+  color:rgb(159, 100, 237);
+  font-size: large;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.word{
+ margin-left: 20px;
+ margin-right:20px;
+}
+.picture{
+margin-left: 20px;
+margin-right: 20px;
+width: 280px;
+}
+.button{
+  margin: 40px;
+  background: #1DD7CD;
+  text-align: center;
+  border: 2px solid #0E267F;
+  padding: 20px;
+}

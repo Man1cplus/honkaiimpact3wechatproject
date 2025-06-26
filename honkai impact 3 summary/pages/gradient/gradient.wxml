@@ -1,0 +1,11 @@
+<view class="gradient-display">
+
+  <view class="container1">
+  <view>====!!!!!!!!!!!!!!!!====</view>
+  <view>施工中</view>
+  <view>====!!!!!!!!!!!!!!!!====</view>
+  </view>
+  <view class="containercolor">前面的区域还是以后来探索吧（乐）</view>
+  <image src="/images/aijiang.png" mode="aspectFit"></image>
+
+</view>

@@ -1,0 +1,67 @@
+.title {
+  width: 100%;
+  background: #7B68EE;
+}
+.title .swip {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  height: 175px;
+  width: 100%;
+  position: relative;
+  top: 20px;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.title .swip image {
+  width: 100%;
+}
+.content .list{
+  margin-top: 50px;
+}
+.content .list .item {
+  margin: 15px auto;
+  border-radius: 10px;
+  width: 80%;
+  height: 100px;
+  background: linear-gradient(to bottom right, #0d50b4, #38d3c6);
+  color: transparent;
+  margin-top: 20px;
+}
+.content .list .item .img image{
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 50px;
+  height: 65px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.content .list .item .titleText{
+  margin-left: 15px;
+  font-weight: bold;
+  color: #293006;
+}
+.content .list .item .xingxing{
+  color: #fedc7e;
+  position: relative;
+  top: -70px;
+  left: 50%;
+}
+.content .list .item .xingxing image{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 7px;
+}
+.content .list .item .button{
+  font-size: 15px;
+  font-family: "微软雅黑";
+  color: #000;
+  position: relative;
+  top: -50px;
+  left: 50%;
+  background-color: #fedc7e;
+  width: 100px;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+}

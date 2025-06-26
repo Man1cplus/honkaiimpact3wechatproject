@@ -1,0 +1,16 @@
+.content{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  height: 120px;
+  line-height: 120px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  background-color: #e04b4b;
+}
+.content .word{
+ margin-bottom: 50px;
+ text-align: center;
+ font-size: 40px;
+}

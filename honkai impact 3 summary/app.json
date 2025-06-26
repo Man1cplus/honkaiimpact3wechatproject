@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/gradient/gradient",
+    "pages/recharge/recharge",
+    "pages/logs/logs",
+    "pages/kiana/kiana",
+    "pages/mei/mei",
+    "pages/bronia/bronia"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#7B68EE",
+    "navigationBarTitleText": "崩坏三御三家",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#efefef",
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/sy1.png",
+      "selectedIconPath": "images/sy2.png"
+    },
+    {
+      "pagePath": "pages/gradient/gradient",
+      "text": "关于原神",
+      "iconPath": "images/hd1.png",
+      "selectedIconPath": "images/hd2.png"
+    },
+    {
+      "pagePath": "pages/recharge/recharge",
+      "text": "赞助",
+      "iconPath": "images/ch1.png",
+      "selectedIconPath": "images/ch2.png"
+    }
+  ]
+  },
+   "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

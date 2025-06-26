@@ -1,0 +1,53 @@
+<view class="title">
+  <swiper indicator-dots='true' autoplay='true' interval='4000' duration='1000' circular='true' class="swip">
+    <block wx:for="{{movies}}" wx:key="key" wx:for-index="index">
+      <swiper-item>
+        <image src='{{item.url}}' mode='widthFix'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view class="content">
+  <view class="list">
+
+    <view class="item"><!-- 女武神 -->
+      <view class="img">
+        <image src="../../images/k1.png"></image>
+      </view>
+      <view class="xingxing">
+        <image src="../../images/jb.png"></image>
+        琪亚娜
+      </view>
+      <view class="button">
+        <navigator url="/pages/kiana/kiana?">进入</navigator>
+      </view>
+    </view>
+
+    <view class="item">
+      <view class="img">
+        <image src="../../images/m1.png"></image>
+      </view>
+      <view class="xingxing">
+        <image src="../../images/hjb.png"></image>
+        雷电芽衣
+      </view>
+      <view class="button">
+        <navigator url="/pages/mei/mei?">进入</navigator>
+      </view>
+    </view>
+
+    <view class="item">
+      <view class="img">
+        <image src="../../images/b1.png"></image>
+      </view>
+      <view class="xingxing">
+        <image src="../../images/xr.png"></image>
+        布洛妮娅
+      </view>
+      <view class="button">
+        <navigator url="/pages/bronia/bronia?">进入</navigator>
+      </view>
+    </view>
+  </view>
+</view>
